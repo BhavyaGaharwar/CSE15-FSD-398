@@ -20,5 +20,5 @@ eventEmitter.on('lunch',()=> { console.log('Welcome')});
 eventEmitter.emit('lunch');
 eventEmitter.emit('lunch');
 
-const shyam=require("./xyz");
+const shyam=require("../xyz");
 console.log("hello",shyam)
