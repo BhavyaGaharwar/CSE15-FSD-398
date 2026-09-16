@@ -1,14 +1,6 @@
 // Using Node.js built-in events module,create an EventEmitter. Register multiple listener's for a response event,
 // then emit the event by passing name and id as arguments and display them in the console.
 
-// import http from "http";
-// import EventEmitter from "events";
-
-// const myEmitter= new EventEmitter();
-// myEmitter.on("response",() => {
-//     console.log("data received");
-// });
-
 
 import EventEmitter from "events";
 const myEmitter = new EventEmitter();
